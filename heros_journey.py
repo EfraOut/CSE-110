@@ -70,7 +70,7 @@ if battle.lower() == 'fight':
         print('True')
         courage = True
     elif bow and wolf_dead:
-        print('Unstocked')
+        print('Misspend')
         courage = True
     elif bow and run:
         print('Solitary')
@@ -82,7 +82,7 @@ if battle.lower() == 'fight':
         print('One Fist Man')
         courage = True
     elif not sword and not bow and run:
-        print("Wendy's")
+        print("Dreamer")
         courage = True
     elif not sword and not bow and pet:
         print("Murphy's")
@@ -98,19 +98,19 @@ elif battle.lower() == 'flee':
         print('Lazy')
         courage = False
     elif sword and pet:
-        print('Un-Analize')
+        print('Impulsive')
         courage = False
     elif bow and wolf_dead:
         print('Heartless')
         courage = False
     elif bow and run:
-        print('Bum')
+        print('Greedy')
         courage = False
     elif bow and pet:
         print('Sad')
         courage = False
     elif not sword and not bow and wolf_dead:
-        print('Nick Cage')
+        print('Ugly')
         courage = False
     elif not sword and not bow and run:
         print('Bad')
@@ -155,8 +155,8 @@ elif sword and pet and courage:
     print("True")
     name = 'true'
 elif sword and pet and not courage:
-    print("Un-Analize")
-    name = 'un-analyze'
+    print("Impulsive")
+    name = 'impulsive'
 elif bow and pet and courage:
     print("Happy")
     name = 'happy'
@@ -167,11 +167,11 @@ elif bow and run and courage:
     print("Solitary")
     name = 'solitary'
 elif bow and run and not courage:
-    print("Bum")
-    name = 'bum'
+    print("Greedy")
+    name = 'greedy'
 elif bow and wolf_dead and courage:
-    print("Unstocked")
-    name = 'unstocked'
+    print("Misspend")
+    name = 'misspend'
 elif bow and wolf_dead and not courage:
     print("Heartless")
     name = 'heartless'
@@ -179,8 +179,8 @@ elif not bow and not sword and wolf_dead and courage:
     print("One Fist Man")
     name = 'one fist man'
 elif not bow and not sword and wolf_dead and not courage:
-    print("Nick Cage")
-    name = 'nick cage'
+    print("Ugly")
+    name = 'Ugly'
 elif not bow and not sword and pet and not courage:
     print("Secret")
     name = "secret"
@@ -188,8 +188,8 @@ elif not bow and not sword and pet and courage:
     print("Murphy's")
     name = "murphy's"
 elif not bow and not sword and run and courage:
-    print("haha you got the Wendy's ending LMAO")
-    name = "wendy's"
+    print("haha you got the Dreamer ending and piss your bed LMAO")
+    name = "dreamer"
 elif not bow and not sword and run and not courage:
     print("Bad")
     name = 'bad'
