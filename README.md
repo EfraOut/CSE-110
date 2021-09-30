@@ -5,6 +5,7 @@ The HERO'S ADVENTURE GAME inspired inspired by Joseph Campbell's 'Hero's Journey
 [---------]
 
 Programming by Efrain Arturo Gomez
+
 Storytelling by Diego Bravo A.
 
 [---------]
