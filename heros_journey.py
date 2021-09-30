@@ -188,7 +188,7 @@ elif not bow and not sword and pet and courage:
     print("Murphy's")
     name = "murphy's"
 elif not bow and not sword and run and courage:
-    print("Wendy's")
+    print("haha you got the Wendy's ending LMAO")
     name = "wendy's"
 elif not bow and not sword and run and not courage:
     print("Bad")
