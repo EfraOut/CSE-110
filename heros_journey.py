@@ -4,7 +4,7 @@ Teacher: Comeau, Luc
 Purpose: Adventure Game (practice if statements and decision making)
 """
 print('--' * 40)
-print("Hero's Journey\nGame inspired by Joseph Campbell's 'Hero's Journey'")
+print("Hero's Journey\nGame inspired by Joseph Campbell's \"Hero's Journey\"")
 print('--' * 40)
 print("it's a normal day in life, nothing too special. Except there is something special.\nYou can feel the calling.\nYou accept the calling ")
 print("\nYou head outside, not knowing what awaits for you. You find on your path a sword and a bow with arrows.\nYou somehow know that you can't take both.")
@@ -199,6 +199,6 @@ else:
 
 print(f"\nYou just completed the {name.upper()} ENDING!\nWhich other's could you get?\n")
 print('--' * 40)
-print("'The cave you fear to enter holds the treasure you seek' Joseph Campbell")
+print("\"The cave you fear to enter holds the treasure you seek\" Joseph Campbell")
 print("What cave are you afraid of entering, but you know you should enter?")
 print('--' * 40)
