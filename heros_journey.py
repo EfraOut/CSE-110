@@ -11,6 +11,7 @@ print("\nYou head outside, not knowing what awaits for you. You find on your pat
 
 # Choosing a weapon. Not picking results on leaving empty-handed
 weapon = input("Which one will you take? SWORD/BOW\n")
+print()
 if weapon.lower() == 'sword':
     print("Picking up the sword, you know it can bring protection for your journey.")
     sword = True
@@ -28,6 +29,7 @@ print("You still don't know what you're supposed to do, but you hope you can fig
 # Wolf encounter. Neither option turns into "run"
 print("\nWalking towards the woods, you find a wolf at a moderate distance. He's sleeping.\nAs you try to move away from him you accidentaly kicked a rock. The wolf has awoken.")
 decision = input('What do you do? ATTACK/PET/RUN\n')
+print()
 if decision.lower() == 'attack':
     if sword:
         print("The wolf just stares at you as you unfold your sword and pierce his heart. The light inside his eyes vanishes as you remove the sword from his chest")
@@ -59,9 +61,10 @@ print("\nLeaving the woods you can see your objective loud and clear. Or at leas
 #Battle with three options. Neither options results in Unsatisfied Ending
 print("As you enter your destination, you notice a giant ogre, waiting for you. He's been waiting a long time for this.\nNow your final battle begins!")
 battle = input("What do you do? FIGHT/FLEE\n")
+print()
 if battle.lower() == 'fight':
     if sword and wolf_dead:
-        print('Cursed')
+        print("You feel the power in your hands, as if a force consumes your ambitions and your deepest wishes, You can feel how all of these change in a couple of seconds for only one desire: The enemy’s blood.\nYou grab your sword and charge straight against him. The ogre, however, is faster than you, which makes you suffer an overwhelming exhaustion, but do you really feel exhausted?\n You know you’re not, so you use this overwhelming power from inside you to destroy him merciless, leaving you as the victor.")
         courage = True
     elif sword and run:
         print('Death')
@@ -135,12 +138,12 @@ Actions in order:
 2. Attack or Pet or Run wolf (else is Run)
 3. Fight or Run (else is Unsatisfied Ending)
 """
-print("You can hear a voice. It's a turtle's voice, and it's speaking to you, and it says:\n")
+print("\nYou can hear a voice. It's a turtle's voice, and it's speaking to you, and it says:\n")
 if courage and wolf_dead and run and pet:
     print('Unsatisfied')
     name = 'unsatisfied'
 elif sword and wolf_dead and courage:
-    print("Cursed")
+    print("You’re weak and you know it. You should’ve had never taken that sword in the first place, since by touching it, it corrupted your mind and your true ambitions, turning you into a megalomaniac, full of power being.\nYou didn’t just destroyed your enemies with your strength but also those who could’ve been your allies, and that’s completely disgusting.\nYou didn’t received any wound in battle, but you’re just dead inside.\nI hope your sins chase you forever, because they’re more than the victory you obtained.")
     name = 'cursed'
 elif sword and wolf_dead and not courage:
     print ("Coward")
