@@ -101,7 +101,7 @@ elif battle.lower() == 'flee':
         print('Lazy')
         courage = False
     elif sword and pet:
-        print('Impulsive')
+        print("Impulsive")
         courage = False
     elif bow and wolf_dead:
         print('Heartless')
