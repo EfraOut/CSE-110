@@ -1,5 +1,3 @@
-from typing_extensions import NotRequired
-
 
 grade = float(input('What is your grade percentage? '))
 note = grade % 10

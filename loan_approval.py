@@ -1,5 +1,5 @@
 """
-Loan thingy
+Loan approval
 """
 print('Please evaluate the following questions from 1=10:\n')
 loan = int(input('How large is the loan? '))
